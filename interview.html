@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+       .overview{
+         height: 100%;
+         width: 100%;
+         background-color: #bfa;
+         position: absolute;
+         top: -99%
+        }
+        .overview:hover{
+         top: 0
+        }
+        .overview{
+            transition: top 2s;
+        }
+        body:after{
+            content: '';
+            display: block;
+            background: url(./public/upload/default.jpg) 0 0;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="overview">
+    <button>男</button>
+    <button>女</button>
+</div>
+<div class="bgc"></div>
+</body>
+<script>
+    function strSplice(str) {
+      return Array.from(str).splice(0, 2, '').join('')
+    }
+    window.onload = function() {
+      var Xml = new XMLHttpRequest()
+      Xml.open('post', url, false)
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      Xml.send(data)
+      Xml.onreadystatechange = function() {
+        if(Xml.readyState === 4) {
+          if (xhr.status >= 200 && xhr.status<300){
+            cb(xhr.responseText)
+          }
+        }
+      }
+    }
+</script>
+</html>

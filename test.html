@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .aside {
+            width: 100px;
+            height: 100px;
+            background: #f66;
+            margin-top: 410px;
+        }
+        .main {
+            height: 100px;
+            width: 100px;
+            background: #fcc;
+            margin-bottom: 100px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+<div class="main"><div class="aside">
+
+    </div></div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    // window.onload = function() {
+    //   function func(a,b) {
+    //     console.log(this.a)
+    //     console.log(a, b)
+    //   }
+    //   foo = function(){}
+    //   function Fun(a) {
+    //     console.log(this instanceof foo)
+    //     this.a = a
+    //   }
+    //   Fun.prototype = new foo()
+    //   let kk = Fun(5)
+      // if (!Function.prototype.bind) {
+      //   Function.prototype.bind = function (oThis) {
+      //     if (typeof this !== "function") {
+      //       // closest thing possible to the ECMAScript 5 internal IsCallable function
+      //       throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+      //     }
+      //
+      //     var aArgs = Array.prototype.slice.call(arguments, 1),
+      //       fToBind = this,
+      //       fNOP = function () {},
+      //       fBound = function () {
+      //         return fToBind.apply(this instanceof fNOP && oThis
+      //           ? this
+      //           : oThis || window,
+      //           aArgs.concat(Array.prototype.slice.call(arguments)));
+      //       };
+      //
+      //     fNOP.prototype = this.prototype;
+      //     fBound.prototype = new fNOP();
+      //
+      //     return fBound;
+      //   };
+      // }
+      //将foo于Fun相关联 当使用new Fun()时，this将会指向实例  当直接Fun()调用时，this指向window，this instanceof foo为false
+      //之所以不采用result.prototype=this.prototype这种写法，而是使用了一个中间层对象temp，避免了两个指针同时指向同一个对象(牵一发而动全身)
+      // aArgs.concat(Array.prototype.slice.call(arguments)拼接数组fun = ofun.bind(obj,1) fun(2)两个地方可以放参数需要拼接起来
+      //fToBind = this保存this
+    // var storage = window.sessionStorage
+    // storage.a = 55
+    // var obj = {
+    //     a:1,
+    //     b:2
+    // }
+    //
+    // var box = document.querySelector('.box input')
+    // var btn = document.querySelector('.check')
+    //   btn.onclick = function () {
+    //     console.log(box.value)
+    //     console.log(box.getAttribute())
+    //   }
+    //
+    // var str = 'aabbcc12311'
+    //   console.log([... new Set(str)].join(''))
+    // }
+    //
+    function Con(name) {
+      this.name = name
+    }
+    const newac = Con.bind({}, 'hh')
+    console.log(new newac())
+    //
+    // function formatNum(num) {
+    //   let arrify = Array.from(num.toString().replace(/\.\d+/, ''))
+    //   const start = arrify.length%3
+    //   const len = arrify.length
+    //   for(let i=0; (i*3+start)<=len; i++) {
+    //     arrify.splice(i*3+start+i, 0, ',')
+    //   }
+    //   return (arrify.join('').replace(/^,|,$/g, ''))+(num.toString().replace(/^\d+/, ''))
+    // }
+    // console.log(new Set().toString())
+</script>
+</html>
