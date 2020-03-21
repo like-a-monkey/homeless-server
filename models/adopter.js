@@ -11,7 +11,8 @@ const adopterSchema = new mongoose.Schema({
   e_mail: {type: String,required: true},//邮箱
   contact: {type: String, default: ''},//其他联系方式
   status: {type: Number, default: 0},//状态
-a  rate: {type: Number, default: 5},//评分
+  date:{type:Array, required: true},//领养日期如若对应多只动物则有多个时间
+  rate: {type: Number, default: 5},//评分
   remarks: {type: String, default: ''},//备注
 })
 

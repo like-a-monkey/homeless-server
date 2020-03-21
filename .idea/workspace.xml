@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2196349e-1a27-4ae0-b624-7e7f2ea3dece" name="Default Changelist" comment="" />
+    <list default="true" id="2196349e-1a27-4ae0-b624-7e7f2ea3dece" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/upload/alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584760779417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584760788818.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584763409569.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584763412441.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584763920671.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584764109507.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584764113723.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584764251355.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584764315846.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/image-1584764561540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upload/wechat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/adopter.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/adopter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/image-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/image-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/image-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/image-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/image-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/file-upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/file-upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -23,7 +50,11 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YKmUD2ZIegSvz3d8ClJVE99lZB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
@@ -83,23 +114,44 @@
       <workItem from="1584411892387" duration="15000" />
       <workItem from="1584497077825" duration="257000" />
       <workItem from="1584513133489" duration="4836000" />
+      <workItem from="1584545148687" duration="36000" />
+      <workItem from="1584581312309" duration="9501000" />
+      <workItem from="1584603524524" duration="9287000" />
+      <workItem from="1584670276247" duration="12772000" />
+      <workItem from="1584752942960" duration="6759000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>32</line>
+          <line>49</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -50,25 +50,20 @@ module.exports = function fileUpload(router) {
           url: 'http://localhost:5000/upload/' + file.filename
         }
       })
-
+      console.log('图片上传成功')
     })
   })
-
   // 删除图片
   router.post('/img/delete', (req, res) => {
-    const {name} = req.body
-    fs.unlink(path.join(dirPath, name), (err) => {
-      if (err) {
-        console.log(err)
-        res.send({
-          status: 1,
-          msg: '删除文件失败'
-        })
-      } else {
-        res.send({
-          status: 0
-        })
-      }
+    const {names} = req.body
+    names.forEach(name => {
+      fs.unlink(path.join(dirPath, name), (err) => {
+        if (err) {
+          console.log(err)
+        } else {
+          console.log('删除成功', name)
+        }
+      })
     })
   })
 }
